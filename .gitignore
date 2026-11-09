@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Lab artifacts
+lab/.chroma/
+lab/chroma_db/
+lab/.faiss/
+lab/data/index/
+lab/traces/
+lab/out/
+*.faiss
+*.pkl
+*.jsonl
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*~
+
+# Logs / notebooks
+*.log
+.ipynb_checkpoints/
